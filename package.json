@@ -1,0 +1,24 @@
+{
+  "name": "p2p-cache",
+  "version": "1.0.0",
+  "description": "p2p cache: -----------",
+  "main": "main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "level": "^8.0.0",
+    "levelup": "^5.1.1",
+    "libp2p": "^0.29.4",
+    "libp2p-gossipsub": "^0.13.0",
+    "libp2p-mdns": "^0.18.0",
+    "libp2p-noise": "^4.0.0",
+    "libp2p-tcp": "^0.17.2",
+    "memdown": "^6.1.1"
+  }
+}
