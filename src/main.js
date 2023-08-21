@@ -143,7 +143,7 @@ node.services.pubsub.addEventListener("message", async (message) => {
   }
 });
 
-await node.services.pubsub.subscribe(TOPIC)
+node.services.pubsub.subscribe(TOPIC)
 
 // Start the Express server
 app.listen(httpPort, () => {
